@@ -12,15 +12,4 @@ public class Shop {
         card.makePayment(10000);
     }
 
-    public static void main(String[] args) {
-        Card debitCard = new DebitCard(20000);
-        Card creditCard = new CreditCard(1000);
-
-        Shop adidas =  new Shop(debitCard);
-        Shop nike =  new Shop(creditCard);
-
-        adidas.purchaseGucciBelt();
-        nike.purchaseGucciBelt();
-    }
-
 }
