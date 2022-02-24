@@ -24,7 +24,7 @@ public class Invoice {
     }
 
     //todo: write the invoice to the file
-    public void saveToFile(String filename) {
+    public final void saveToFile(String filename) {
         // Creates a file with given name and writes the invoice
     }
 
